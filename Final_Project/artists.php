@@ -23,12 +23,14 @@ if (!$result) {
            <?php
         //insert a row into the table for each row of data
         while (($result_row = $result->fetch_assoc()) !== NULL) {
-        echo "<tr>";
-        echo "<td><a href=artistdetails.php?id=".$result_row['artist_id'].">" . $result_row['artist'] . "</a></td>";
-        //echo "<td>" . $result_row['desc'] . "</td>";
-       // echo "<td><a href='" . $result_row['website'] ."'>".$result_row['website']."</a</td>";
-        //echo "<td>$" . $result_row[''] . "</td>";
-        echo "</tr><br><br>";
+            echo "<ul>";
+            echo "<li><a href=artistdetails.php?id=".$result_row['artist_id'].">" . $result_row['artist'] . "</a></h2>";
+            if ($result_row['image']!== NULL){
+            echo "<br><img src='images/artists/".$result_row['image']."'> ";
+            }
+           // echo "<li><a href='" . $result_row['website'] ."'>".$result_row['website']."</a</li>";
+            echo "</ul>";
+  
     }
 ?>
            

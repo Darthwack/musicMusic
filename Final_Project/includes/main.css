@@ -93,6 +93,8 @@ section {
     -moz-box-shadow: inset 0px 5px 10px  #919191;
     -webkit-box-shadow: inset 0px 5px 10px  #919191;
     box-shadow: inset 0px 5px 10px  #919191;
+    overflow-x: hidden;
+	overflow-y: scroll;
 }
 
 /* index article styles */
@@ -127,6 +129,7 @@ section {
     -moz-border-radius: 5px;
     -webkit-border-radius: 5px;
     border-radius: 5px;
+    
 }
 
 /* contact article styles */
