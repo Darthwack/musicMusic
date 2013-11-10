@@ -1,0 +1,155 @@
+/* 
+    Document   : main
+    Created on : Nov 8, 2013, 12:28:40 PM
+    Author     : Kevin
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+body {
+    margin: 0;
+    display: block;
+}
+
+/* header styles */
+header {
+    margin: 0;
+    background-color: #000000;
+    min-height: 13em;
+}
+
+header img {
+    height: 50%;
+    width: 50%;
+    margin: 0;
+}
+
+/* navagation styles */
+nav {
+   float: right; 
+   width: 40%;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    color: #1133ff;
+    float: left;
+    margin: 1%;
+    font-size: 1.5em;
+}
+
+nav ul li a {
+    text-decoration: none;
+}
+
+nav ul li a:link {
+    color: #1133ff;
+    outline: none;
+}
+
+nav ul li a:visited {
+    color: #1133ff;
+    outline: none;
+}
+
+nav ul li a:hover{
+    color: #3366ff;
+    outline: none;
+}
+
+nav ul li a:active {
+    color: #1133ff;
+    outline: none;
+}
+
+/* search bar styles */
+
+#searchForm {
+    padding-left: 6.5em;
+}
+
+#searchBar {
+    padding-left: .5em;
+    -moz-border-radius: 25px;
+    -webkit-border-radius: 25px;
+    border-radius: 25px;
+}
+
+#submit {
+    color: #999999;
+    background-color: #313131;
+    -moz-border-radius: 25px;
+    -webkit-border-radius: 25px;
+    border-radius: 25px;
+}
+
+/* main section styles */
+section {
+    min-height: 40em;
+    background-color: #717171;
+    -moz-box-shadow: inset 0px 5px 10px  #919191;
+    -webkit-box-shadow: inset 0px 5px 10px  #919191;
+    box-shadow: inset 0px 5px 10px  #919191;
+}
+
+/* index article styles */
+#indexArticle_1 {
+    min-height: 20em;
+    width: 30%;
+    background-color: #a1a1a1;
+    margin: 0 0 2em 20em;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+
+#indexArticle_2 {
+    min-height: 20em;
+    width: 30%;
+    background-color: #a1a1a1;
+    margin-left: 20em;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+
+/* index aside styles */
+#indexAside {
+    margin-top: 1em;
+    margin-right: 20em;
+    min-height: 40em;
+    width: 30%;
+    background-color: #a1a1a1;
+    float: right;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+
+/* contact article styles */
+#contactArticle {
+    min-height: 30em;
+    width: 40%;
+    background-color: #a1a1a1;
+    margin: 5em auto;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+
+/* footer styles */
+
+footer {
+    background-color: #000000;
+    min-height: 10em;
+}
+
+footer p {
+    margin: 0;
+    color: #1133ff;
+    text-align: center;
+    padding-top: 4em;
+}
