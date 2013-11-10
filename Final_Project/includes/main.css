@@ -156,3 +156,72 @@ footer p {
     text-align: center;
     padding-top: 4em;
 }
+
+/* artist page styles */
+#artistAside {
+    margin-top: -23em;
+    margin-left: 20em;
+    padding: 1em 0;
+    min-height: 40em;
+    width: 30%;
+    background-color: #a1a1a1;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+
+#artistArticle_1 {
+    float: right;
+    min-height: 20em;
+    width: 30%;
+    background-color: #a1a1a1;
+    margin: 0 20em 2em 0;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+
+#artistArticle_2 {
+    float: right;
+    min-height: 20em;
+    width: 30%;
+    background-color: #a1a1a1;
+    margin-right: 20em;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+
+ul#artist_page {
+    list-style: none;
+}
+
+ul li#artist_line_item {
+   
+    font-size: 1em;
+}
+
+ul li#artist_line_item a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+ul li#artist_line_item a:link {
+    color: #ffffff;
+    outline: none;
+}
+
+ul li#artist_line_item a:visited {
+    color: #ffffff;
+    outline: none;
+}
+
+ul li#artist_line_item a:hover {
+    color: #1133ff;
+    outline: none;
+}
+
+ul li#artist_line_item a:active {
+    color: #ffffff;
+    outline: none;
+}
