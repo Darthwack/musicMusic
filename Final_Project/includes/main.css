@@ -156,3 +156,59 @@ footer p {
     text-align: center;
     padding-top: 4em;
 }
+
+/* artist page styles */
+.artist_page_image {
+    width: 150px;
+    height: 100px;
+    margin-left: 1em;
+}
+
+#image_set {
+    float: left;
+    width: 12%;
+    height: 175px;
+}
+
+#artistAside {
+    margin: 0 auto;
+    padding: 1em 0 15em 0;
+    min-height: 40em;
+    width: 75%;
+    background-color: #a1a1a1;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+
+#artist_line_item {
+    margin: 0 1em;
+    text-align: center;
+    font-size: 1em;
+    
+}
+
+#artist_line_item a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+#artist_line_item a:link {
+    color: #ffffff;
+    outline: none;
+}
+
+#artist_line_item a:visited {
+    color: #ffffff;
+    outline: none;
+}
+
+#artist_line_item a:hover {
+    color: #1133ff;
+    outline: none;
+}
+
+#artist_line_item a:active {
+    color: #ffffff;
+    outline: none;
+}
