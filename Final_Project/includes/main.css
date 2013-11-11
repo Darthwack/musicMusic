@@ -158,6 +158,7 @@ footer p {
 }
 
 /* artist page styles */
+<<<<<<< HEAD
 .artist_page_image {
     width: 150px;
     height: 100px;
@@ -176,11 +177,43 @@ footer p {
     min-height: 40em;
     width: 75%;
     background-color: #a1a1a1;
+=======
+#artistAside {
+    margin-top: -23em;
+    margin-left: 20em;
+    padding: 1em 0;
+    min-height: 40em;
+    width: 30%;
+    background-color: #a1a1a1;
     -moz-border-radius: 5px;
     -webkit-border-radius: 5px;
     border-radius: 5px;
 }
 
+#artistArticle_1 {
+    float: right;
+    min-height: 20em;
+    width: 30%;
+    background-color: #a1a1a1;
+    margin: 0 20em 2em 0;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+
+#artistArticle_2 {
+    float: right;
+    min-height: 20em;
+    width: 30%;
+    background-color: #a1a1a1;
+    margin-right: 20em;
+>>>>>>> 6c1cd5f75bbb217a7fd6e15b524149501e91ce70
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+
+<<<<<<< HEAD
 #artist_line_item {
     margin: 0 1em;
     text-align: center;
@@ -189,26 +222,54 @@ footer p {
 }
 
 #artist_line_item a {
+=======
+ul#artist_page {
+    list-style: none;
+}
+
+ul li#artist_line_item {
+   
+    font-size: 1em;
+}
+
+ul li#artist_line_item a {
+>>>>>>> 6c1cd5f75bbb217a7fd6e15b524149501e91ce70
     color: #ffffff;
     text-decoration: none;
 }
 
+<<<<<<< HEAD
 #artist_line_item a:link {
+=======
+ul li#artist_line_item a:link {
+>>>>>>> 6c1cd5f75bbb217a7fd6e15b524149501e91ce70
     color: #ffffff;
     outline: none;
 }
 
+<<<<<<< HEAD
 #artist_line_item a:visited {
+=======
+ul li#artist_line_item a:visited {
+>>>>>>> 6c1cd5f75bbb217a7fd6e15b524149501e91ce70
     color: #ffffff;
     outline: none;
 }
 
+<<<<<<< HEAD
 #artist_line_item a:hover {
+=======
+ul li#artist_line_item a:hover {
+>>>>>>> 6c1cd5f75bbb217a7fd6e15b524149501e91ce70
     color: #1133ff;
     outline: none;
 }
 
+<<<<<<< HEAD
 #artist_line_item a:active {
+=======
+ul li#artist_line_item a:active {
+>>>>>>> 6c1cd5f75bbb217a7fd6e15b524149501e91ce70
     color: #ffffff;
     outline: none;
 }
