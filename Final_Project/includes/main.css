@@ -86,15 +86,23 @@ nav ul li a:active {
     border-radius: 25px;
 }
 
+/* shopping cart styles */
+img#shopping_cart {
+    height: 50px;
+    width: 50px;
+    margin-top: 1em;
+    margin-right: 3em;
+    float: right;
+    
+}
+
 /* main section styles */
 section {
     min-height: 40em;
-    background-color: #717171;
+    background-color: #a1a1a1;
     -moz-box-shadow: inset 0px 5px 10px  #919191;
     -webkit-box-shadow: inset 0px 5px 10px  #919191;
     box-shadow: inset 0px 5px 10px  #919191;
-    overflow-x: hidden;
-	overflow-y: scroll;
 }
 
 /* index article styles */
@@ -102,7 +110,7 @@ section {
     min-height: 20em;
     width: 30%;
     background-color: #a1a1a1;
-    margin: 0 0 2em 20em;
+    margin: 0 0 2em 13em;
     -moz-border-radius: 5px;
     -webkit-border-radius: 5px;
     border-radius: 5px;
@@ -111,8 +119,8 @@ section {
 #indexArticle_2 {
     min-height: 20em;
     width: 30%;
-    background-color: #a1a1a1;
-    margin-left: 20em;
+    background-color: #717171;
+    margin-left: 13em;
     -moz-border-radius: 5px;
     -webkit-border-radius: 5px;
     border-radius: 5px;
@@ -121,22 +129,21 @@ section {
 /* index aside styles */
 #indexAside {
     margin-top: 1em;
-    margin-right: 20em;
+    margin-right: 13em;
     min-height: 40em;
     width: 30%;
-    background-color: #a1a1a1;
+    background-color: #717171;
     float: right;
     -moz-border-radius: 5px;
     -webkit-border-radius: 5px;
     border-radius: 5px;
-    
 }
 
 /* contact article styles */
 #contactArticle {
     min-height: 30em;
     width: 40%;
-    background-color: #a1a1a1;
+    background-color: #717171;
     margin: 5em auto;
     -moz-border-radius: 5px;
     -webkit-border-radius: 5px;
@@ -159,6 +166,17 @@ footer p {
 
 /* artist page styles */
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+section#artist_section {
+    min-height: 40em;
+    background-color: #a1a1a1;
+    -moz-box-shadow: inset 0px 2px 5px  #515151;
+    -webkit-box-shadow: inset 0px 2px 5px  #515151;
+    box-shadow: inset 0px 2px 5px  #515151;
+}
+
+>>>>>>> d3416b7a0a66d11de4566dfea53adde5e3abcdb5
 .artist_page_image {
     width: 150px;
     height: 100px;
@@ -167,7 +185,7 @@ footer p {
 
 #image_set {
     float: left;
-    width: 12%;
+    width: 170px;
     height: 175px;
 }
 
@@ -175,8 +193,9 @@ footer p {
     margin: 0 auto;
     padding: 1em 0 15em 0;
     min-height: 40em;
-    width: 75%;
+    width: 80%;
     background-color: #a1a1a1;
+<<<<<<< HEAD
 =======
 #artistAside {
     margin-top: -23em;
@@ -211,6 +230,8 @@ footer p {
     -moz-border-radius: 5px;
     -webkit-border-radius: 5px;
     border-radius: 5px;
+=======
+>>>>>>> d3416b7a0a66d11de4566dfea53adde5e3abcdb5
 }
 
 <<<<<<< HEAD
@@ -273,3 +294,57 @@ ul li#artist_line_item a:active {
     color: #ffffff;
     outline: none;
 }
+
+/* venue styles */
+section#venue_section {
+    min-height: 40em;
+    background-color: #a1a1a1;
+    -moz-box-shadow: inset 0px 2px 5px  #515151;
+    -webkit-box-shadow: inset 0px 2px 5px  #515151;
+    box-shadow: inset 0px 2px 5px  #515151;
+}
+
+#venueAside {
+    margin: 0 auto;
+    padding: 1em 0 16em 0;
+    min-height: 40em;
+    width: 75%;
+    background-color: #a1a1a1;
+}
+
+#venue_set {
+    float: left;
+    width: 33%;
+    height: 8em;
+    
+}
+
+h3#venue {
+    color: #ffffff;
+}
+
+/* artist details styles */
+#venuedetails_section {
+    min-height: 35em;
+    background-color: #a1a1a1;
+    -moz-box-shadow: inset 0px 2px 5px  #515151;
+    -webkit-box-shadow: inset 0px 2px 5px  #515151;
+    box-shadow: inset 0px 2px 5px  #515151; 
+}
+
+#venueDetailsArticle {
+    min-height: 30em;
+    width: 40%;
+    background-color: #a1a1a1;
+    margin: 0 auto;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+
+/* artist details styles */
+#detail_group {
+    float: left;
+    margin: 0 1em 0 0;
+}
+
