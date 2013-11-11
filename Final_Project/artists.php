@@ -3,7 +3,7 @@ $page_title = "Artists &#124; IndyMusic.com";
 require_once 'includes/header.php';
 require_once 'includes/database.php';
 
-$query_str = "SELECT * FROM $tblArtists";
+$query_str = "SELECT * FROM artists ORDER BY artist ASC";
 
 $result = $conn->query($query_str);
 
@@ -16,36 +16,31 @@ if (!$result) {
     exit;
 } else { //display results in a table
 ?>
-        
-   <section>
-       </br></br>
-       <aside id="indexAside">
-           <?php
+<section>
+</br></br>
+
+<aside id="artistAside">
+<?php
         //insert a row into the table for each row of data
         while (($result_row = $result->fetch_assoc()) !== NULL) {
-            echo "<ul>";
-            echo "<li><a href=artistdetails.php?id=".$result_row['artist_id'].">" . $result_row['artist'] . "</a></h2>";
+        echo "<div id='image_set'>";
+        
+       
             if ($result_row['image']!== NULL){
-            echo "<br><img src='images/artists/".$result_row['image']."'> ";
+            echo "<img class='artist_page_image' src='images/artists/".$result_row['image']."'><br> ";
             }
-           // echo "<li><a href='" . $result_row['website'] ."'>".$result_row['website']."</a</li>";
-            echo "</ul>";
-  
+            else {
+                echo "<img class='artist_page_image' src='images/band4.jpg'><br>";
+            }
+            echo "<div id='artist_line_item'><a href=artistdetails.php?id=".$result_row['artist_id'].">" . $result_row['artist'] . "</a></div>";
+        echo "</div>";    
     }
-?>
-           
-       </aside>
-       
-       <article id="indexArticle_1">
-           
-       </article>
-       
-       <article id="indexArticle_2">
-           
-       </article>
-       </br></br> 
-            
-   </section>
+?>    
+</aside>
+
+</br>
+
+</section>
 <?php
     // clean up resultsets when we're done with them!
     $result->close();
@@ -54,7 +49,6 @@ if (!$result) {
 // close the connection.
 $conn->close();
 ?>
-        
 <?php
 require 'includes/footer.php';
 ?>
