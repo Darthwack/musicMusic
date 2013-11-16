@@ -165,18 +165,14 @@ footer p {
 }
 
 /* artist page styles */
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
 section#artist_section {
-    min-height: 40em;
+    min-height: 80em;
     background-color: #a1a1a1;
     -moz-box-shadow: inset 0px 2px 5px  #515151;
     -webkit-box-shadow: inset 0px 2px 5px  #515151;
     box-shadow: inset 0px 2px 5px  #515151;
 }
 
->>>>>>> d3416b7a0a66d11de4566dfea53adde5e3abcdb5
 .artist_page_image {
     width: 150px;
     height: 100px;
@@ -195,46 +191,8 @@ section#artist_section {
     min-height: 40em;
     width: 80%;
     background-color: #a1a1a1;
-<<<<<<< HEAD
-=======
-#artistAside {
-    margin-top: -23em;
-    margin-left: 20em;
-    padding: 1em 0;
-    min-height: 40em;
-    width: 30%;
-    background-color: #a1a1a1;
-    -moz-border-radius: 5px;
-    -webkit-border-radius: 5px;
-    border-radius: 5px;
 }
 
-#artistArticle_1 {
-    float: right;
-    min-height: 20em;
-    width: 30%;
-    background-color: #a1a1a1;
-    margin: 0 20em 2em 0;
-    -moz-border-radius: 5px;
-    -webkit-border-radius: 5px;
-    border-radius: 5px;
-}
-
-#artistArticle_2 {
-    float: right;
-    min-height: 20em;
-    width: 30%;
-    background-color: #a1a1a1;
-    margin-right: 20em;
->>>>>>> 6c1cd5f75bbb217a7fd6e15b524149501e91ce70
-    -moz-border-radius: 5px;
-    -webkit-border-radius: 5px;
-    border-radius: 5px;
-=======
->>>>>>> d3416b7a0a66d11de4566dfea53adde5e3abcdb5
-}
-
-<<<<<<< HEAD
 #artist_line_item {
     margin: 0 1em;
     text-align: center;
@@ -243,54 +201,26 @@ section#artist_section {
 }
 
 #artist_line_item a {
-=======
-ul#artist_page {
-    list-style: none;
-}
-
-ul li#artist_line_item {
-   
-    font-size: 1em;
-}
-
-ul li#artist_line_item a {
->>>>>>> 6c1cd5f75bbb217a7fd6e15b524149501e91ce70
     color: #ffffff;
     text-decoration: none;
 }
 
-<<<<<<< HEAD
 #artist_line_item a:link {
-=======
-ul li#artist_line_item a:link {
->>>>>>> 6c1cd5f75bbb217a7fd6e15b524149501e91ce70
     color: #ffffff;
     outline: none;
 }
 
-<<<<<<< HEAD
 #artist_line_item a:visited {
-=======
-ul li#artist_line_item a:visited {
->>>>>>> 6c1cd5f75bbb217a7fd6e15b524149501e91ce70
     color: #ffffff;
     outline: none;
 }
 
-<<<<<<< HEAD
 #artist_line_item a:hover {
-=======
-ul li#artist_line_item a:hover {
->>>>>>> 6c1cd5f75bbb217a7fd6e15b524149501e91ce70
     color: #1133ff;
     outline: none;
 }
 
-<<<<<<< HEAD
 #artist_line_item a:active {
-=======
-ul li#artist_line_item a:active {
->>>>>>> 6c1cd5f75bbb217a7fd6e15b524149501e91ce70
     color: #ffffff;
     outline: none;
 }
@@ -347,4 +277,3 @@ h3#venue {
     float: left;
     margin: 0 1em 0 0;
 }
-
