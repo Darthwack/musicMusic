@@ -3,7 +3,7 @@ $page_title = "Venues &#124; IndyMusic.com";
 require_once 'includes/header.php';
 require_once 'includes/database.php';
 
-$query_str = "SELECT venue_id, venue_name, street, city, zip, website FROM venues ORDER BY venue_name ASC";
+$query_str = "SELECT venue_id, venue, street, city, zip, website FROM venues ORDER BY venue ASC";
 
 $result = $conn->query($query_str);
 
@@ -24,7 +24,7 @@ if (!$result) {
         //insert a row into the table for each row of data
         while (($result_row = $result->fetch_assoc()) !== NULL) {
         echo "<div id='venue_set'>";
-        echo "<h3 id='venue'><a href=venuedetails.php?id=".$result_row['venue_id'].">" . $result_row['venue_name'] . "</a></h3>";
+        echo "<h3 id='venue'><a href=venuedetails.php?id=".$result_row['venue_id'].">" . $result_row['venue'] . "</a></h3>";
         
         echo "<div id=''>" . $result_row['street'] . " " . $result_row['city'] . " " . $result_row['zip'] . "</div>";
         //echo "<div id=''>" . $result_row['map'] . "</div>";
