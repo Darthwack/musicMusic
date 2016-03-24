@@ -3,7 +3,7 @@
 <?php session_start() ?>    
     <!-- 
     This is a class project for school. No copyright infringement is intended. Only fair use for educational purposes.
-    Kevin Grimley student at IUPUI 
+   Zack Joyce 
     -->
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
